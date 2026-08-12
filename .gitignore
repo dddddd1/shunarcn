@@ -1,0 +1,7 @@
+# === 本地报告 / 分析产物（非源码，不需入库） ===
+broken-images-report.html
+local-seo-guide.html
+seo-geo-audit.html
+
+# === WorkBuddy 本地缓存 / 项目数据（不入库） ===
+.workbuddy/
