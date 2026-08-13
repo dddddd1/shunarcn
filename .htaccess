@@ -1,0 +1,10 @@
+# shunar.cn 规范化：把 /index.html 301 跳转到根目录 /
+# 仅当请求 URL 中显式包含 /index.html 时才跳转，避免与目录索引本身形成循环
+RewriteEngine On
+RewriteCond %{THE_REQUEST} \s/index\.html\s [NC,OR]
+RewriteCond %{THE_REQUEST} \s/index\.html\? [NC]
+RewriteRule ^index\.html$ / [R=301,L]
+
+# 同时处理带尾部斜杠的变体（部分主机 /index.html 会被重写为 / 后再次请求）
+RewriteCond %{REQUEST_URI} ^/index\.html$ [NC]
+RewriteRule ^index\.html$ / [R=301,L]
