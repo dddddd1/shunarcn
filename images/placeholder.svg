@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="选球机示意图">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef3f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="16" y="16" width="768" height="568" fill="none" stroke="#d4dbe3" stroke-width="2" rx="10"/>
+
+  <text x="400" y="72" text-anchor="middle" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="34" font-weight="700" fill="#1f6f8b">选球机 · 球形物料分选</text>
+  <text x="400" y="102" text-anchor="middle" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="18" fill="#7a8794">按粒径与球形度精准分级 · shunar.cn</text>
+
+  <!-- 进料斗 -->
+  <path d="M330 150 L470 150 L450 232 L350 232 Z" fill="#3f5b6e"/>
+  <rect x="350" y="232" width="100" height="18" fill="#34495e"/>
+
+  <!-- 振动筛（倾斜） -->
+  <g transform="rotate(-12 400 322)">
+    <rect x="300" y="302" width="200" height="40" rx="6" fill="#5b7a8c"/>
+    <line x1="312" y1="314" x2="488" y2="314" stroke="#cdd7df" stroke-width="2"/>
+    <line x1="312" y1="326" x2="488" y2="326" stroke="#cdd7df" stroke-width="2"/>
+  </g>
+
+  <!-- 支架与底座 -->
+  <rect x="330" y="362" width="14" height="150" fill="#46586a"/>
+  <rect x="456" y="362" width="14" height="150" fill="#46586a"/>
+  <rect x="300" y="502" width="200" height="16" rx="4" fill="#34495e"/>
+
+  <!-- 分选球体（彩色，象征分级） -->
+  <circle cx="360" cy="272" r="12" fill="#f4c542"/>
+  <circle cx="396" cy="288" r="9"  fill="#4a90d9"/>
+  <circle cx="421" cy="280" r="14" fill="#5cb85c"/>
+  <circle cx="381" cy="302" r="8"  fill="#e8833a"/>
+  <circle cx="345" cy="402" r="10" fill="#f4c542"/>
+  <circle cx="362" cy="432" r="9"  fill="#f4c542"/>
+  <circle cx="455" cy="402" r="10" fill="#4a90d9"/>
+  <circle cx="440" cy="432" r="9"  fill="#4a90d9"/>
+  <circle cx="400" cy="422" r="11" fill="#5cb85c"/>
+
+  <!-- 收集箱 -->
+  <rect x="320" y="472" width="70" height="60" rx="4" fill="#dfe7ee" stroke="#9aa9b6" stroke-width="2"/>
+  <rect x="410" y="472" width="70" height="60" rx="4" fill="#dfe7ee" stroke="#9aa9b6" stroke-width="2"/>
+
+  <text x="400" y="562" text-anchor="middle" font-family="-apple-system,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#9aa9b6">示意图 · 请以实际设备为准</text>
+</svg>
